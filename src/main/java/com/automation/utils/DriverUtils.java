@@ -23,7 +23,6 @@ public class DriverUtils {
     }
 
 
-
     public static WebDriver getDriver() {
 
         if (driver == null ) {

@@ -14,11 +14,11 @@ public class MockPageSteps {
     public void ValueGreaterThanZero(){
         mockpage.CheckValueGreaterThanZero();
     }
-    @Then("^verify Total balance field value is sum of all the values$")
+    @Then("^Verify Total balance field value is sum of all the values$")
     public void TotalBalance(){
         mockpage.CheckTotalBalance();
     }
-    @Then("^verify the values of all the fields are formatted as currency$")
+    @Then("^Verify the values of all the fields are formatted as currency$")
     public void CurrencySymbol(){
         mockpage.CheckCurrencySymbol();
     }
