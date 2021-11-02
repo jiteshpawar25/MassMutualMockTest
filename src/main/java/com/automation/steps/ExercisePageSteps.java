@@ -6,6 +6,7 @@ import cucumber.api.java.en.When;
 
 public class ExercisePageSteps {
     ExercisePage exercisepage = new ExercisePage();
+
     @Given("^User is on exercise of the application$")
     public void userIsOnExercisePage() {
         exercisepage.verifyuserIsOnExercisePage();
